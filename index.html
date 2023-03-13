@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | RunnerWeb3</title>
+    <title>Unity WebGL Player | WebGL_TEST</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">RunnerWeb3</div>
+        <div id="unity-build-title">WebGL_TEST</div>
       </div>
     </div>
     <script>
@@ -56,15 +56,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebGL_NoCompression.loader.js";
+      var loaderUrl = buildUrl + "/_BUILD.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL_NoCompression.data",
-        frameworkUrl: buildUrl + "/WebGL_NoCompression.framework.js",
-        codeUrl: buildUrl + "/WebGL_NoCompression.wasm",
+        dataUrl: buildUrl + "/_BUILD.data",
+        frameworkUrl: buildUrl + "/_BUILD.framework.js",
+        codeUrl: buildUrl + "/_BUILD.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "RunnerWeb3",
-        productVersion: "1.0",
+        productName: "WebGL_TEST",
+        productVersion: "0.1",
         showBanner: unityShowBanner,
       };
 
